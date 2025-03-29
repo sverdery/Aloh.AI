@@ -77,3 +77,5 @@ And more on the way...
 ---
 
 ## 🌐 Project Structure
+1. 🧠 Custom GPT Personas (Files)
+2. 🧠⚙️ AI Agents (Code)
