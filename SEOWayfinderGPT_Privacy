@@ -1,0 +1,40 @@
+# Privacy Policy — SEO Wayfinder GPT (PageSpeed Insights Action)
+
+Effective Date: 04/27/2025
+
+This PageSpeed Insights Action ("the Action") used within SEO Wayfinder GPT is designed to help users analyze website performance using Google's PageSpeed Insights API. We take your privacy seriously and want to clearly explain how your data is handled.
+
+## What We Collect
+- **Website URLs** you provide for analysis.
+- **Google API Keys** that you provide manually for accessing PageSpeed Insights.
+
+## How We Use Your Data
+- URLs are used solely to fetch public PageSpeed performance data.
+- API Keys are used strictly to authenticate requests with Google's PageSpeed Insights API during your active session.
+- No personal user information is collected, stored, or transmitted.
+
+## Data Storage and Retention
+- **We do not permanently store** any URLs, API Keys, or PageSpeed analysis results.
+- All data is processed in real-time during your session and discarded immediately afterward.
+- No historical logs, records, or user profiles are maintained.
+
+## Security Practices
+- API Keys are requested per session for API authentication purposes only.
+- Users are advised to **keep their API keys private** and avoid sharing them in public conversations.
+- All interactions occur over secure HTTPS connections.
+
+## Third-Party Services
+- The Action sends requests to Google's PageSpeed Insights API (https://developers.google.com/speed/docs/insights/v5/get-started) to retrieve public website performance data.
+- Google's privacy policy applies to their API services and can be found at https://policies.google.com/privacy.
+
+## Your Responsibilities
+- You are responsible for ensuring that the URLs you analyze are either publicly accessible or owned by you.
+- You are responsible for securing your own Google API Key if used.
+
+## Changes to this Policy
+We may update this Privacy Policy periodically. Any material changes will be communicated in advance when possible.
+
+## Contact
+For any questions or concerns regarding this Action's privacy practices, please contact me on GitHub.
+
+---
