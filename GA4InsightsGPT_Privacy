@@ -1,40 +1,50 @@
 Privacy Policy for GA4 Insights GPT
-Effective Date: 04/26/2025
+Effective Date: 04/29/2025
 
 1. Overview
-GA4 Insights GPT is designed to help users interactively access and analyze their own Google Analytics 4 (GA4) data. We prioritize user privacy, data security, and transparency. This policy explains how your data is handled.
+GA4 Insights GPT is an AI assistant designed to help users analyze their website performance using Google Analytics 4 (GA4) data. This privacy policy outlines how we handle your data during your interaction with this GPT.
 
 2. Data Access and Usage
-GA4 Insights GPT requires a user-supplied access token to fetch GA4 data.
+The assistant only accesses data you provide directly in the session — either by:
 
-The access token is used only within your active session to retrieve your authorized GA4 reports.
+Pasting a temporary GA4 access token
 
-No personal information, access tokens, or analytics data is stored, saved, or transmitted outside of the session.
+Uploading a report (CSV, PDF)
 
-After fetching the requested analytics reports, all data remains transient and is not retained after the session ends.
+Pasting a screenshot of a GA4 dashboard
 
-3. User Control
-You are in full control of your access token at all times.
+The GA4 access token is used solely to retrieve your analytics data during the active session.
 
-You may wipe your token from memory at any point during the session by typing "WIPE TOKEN."
+All data retrieval is performed through the Google Analytics Data API using your provided token.
 
-GA4 Insights GPT will automatically mask part of your access token when displaying it to enhance your security.
+3. Data Retention and Storage
+No data is stored after your session ends.
 
-4. No Data Sharing
-We do not share, sell, or distribute any information you provide.
+Access tokens, report data, and analytics insights are processed in real-time only and are never saved to any database or external server.
 
-We do not store any GA4 account details, access tokens, or analytics data on external servers.
+Your access token is stored in memory only during the session and can be erased at any time using the WIPE TOKEN command.
 
-5. Third-Party Services
-GA4 Insights GPT connects directly to Google's Analytics Data API using your provided access token.
+4. Security Practices
+All data is transmitted securely via HTTPS to Google’s official API endpoints.
 
-All data remains within the secure systems governed by OpenAI’s platform during your active session.
+The assistant does not store, log, or transmit your access token or analytics data outside of OpenAI's environment.
 
-6. Security Disclaimer
-While we take reasonable measures to protect your data during your session, users are responsible for keeping their access tokens secure. Never share your token with others.
+You are responsible for keeping your access token confidential. Never share it with others outside this assistant.
+
+5. User Control
+You are in full control of your data at all times:
+
+You can choose to use manual report uploads or screenshots if you prefer not to connect via token.
+
+You may type WIPE TOKEN at any time to erase your token from memory.
+
+6. Third-Party Services
+This assistant connects to Google Analytics Data API (https://analyticsdata.googleapis.com) to retrieve analytics data using your access token.
+
+No data is sent to any other third-party service.
 
 7. Changes to This Policy
-We may update this Privacy Policy from time to time. Updated versions will be communicated clearly within the GPT experience or linked documentation.
+We may update this Privacy Policy in the future to reflect changes in functionality or compliance needs. Any updates will be made clear within the GPT description or onboarding flow.
 
 8. Contact
-If you have any questions regarding this Privacy Policy, please contact me via GitHub
+If you have any questions or concerns regarding this policy, please contact: aloha@aloh.ai
