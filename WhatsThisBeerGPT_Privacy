@@ -1,0 +1,53 @@
+What’s This Beer GPT – Privacy Policy
+Last updated: May 2025
+
+Introduction
+What’s This Beer GPT (“we,” “us,” or “the Service”) provides craft-beer lookup, tasting-journal and label-scanning features via the OpenAI ChatGPT platform and the WineVybe Beer API. Protecting your privacy and data is important to us. This policy explains what information we collect, how we use it and your rights.
+
+Information We Collect
+
+User Queries and Inputs: beer names, brewery names, style keywords, ABV/IBU ranges, tasting-note text, trivia requests, optional location or zip code, and uploaded label/tap-handle images for OCR.
+
+User-Generated Content: personal tasting-journal entries (beer ID, rating, notes, timestamp) and your Favorites list (beer IDs you’ve marked).
+
+Usage Metadata: action timestamps, query parameters and basic session logs for troubleshooting and analytics.
+
+Third-Party Data: beer details fetched from the Beer9 API (ABV, IBU, tasting notes, brewery info).
+Note: We do not collect names, emails, payment data or any health information.
+
+How We Use Your Information
+– Service Delivery: to fetch beer data, generate flavor summaries, explain styles, record your journal entries, manage Favorites and perform OCR.
+– Improvement and Diagnostics: to analyze usage patterns, optimize response quality and fix technical issues.
+– Security and Abuse Prevention: to detect misuse or unauthorized access and maintain service integrity.
+We do not sell, rent or share your inputs or journal entries, except as described under Third-Party Services.
+
+Third-Party Services and Data Sharing
+– Beer9 API: we send only your beer-related query parameters (name, brewery) and return the API’s beer data. No personal identifiers are shared.
+– Tesseract OCR: images are processed in memory to extract text and then discarded; none are stored permanently.
+– Pronouncing Library: used locally for phonetic transcriptions with no external calls.
+Your API key is stored securely as an environment variable and never exposed to end users or logged in plaintext.
+
+Data Retention and Deletion
+– Tasting Journal and Favorites: kept indefinitely until you delete entries or clear your list.
+– Label-Scanning Images: discarded immediately after OCR processing.
+– Logs and Analytics: retained for up to 30 days, then anonymized or purged.
+To delete your data, tell the GPT:
+Delete my tasting journal entry for [beer name]
+Clear my Favorites list
+
+User Controls and Rights
+– Access and Correction: view, update or delete your notes and Favorites via chat.
+– Opt-Out: disable label scanning or location lookups by saying “Turn off image scanning” or “Stop using my location.”
+– Data Portability: export your journal as CSV with “Export my journal to CSV.”
+
+Security
+We use HTTPS for all API calls, manage secrets for API keys, store user content in memory or encrypted storage and conduct regular security audits.
+
+Children’s Privacy
+This Service is not intended for children under 13. We do not knowingly collect information from users under 13.
+
+Changes to This Policy
+We may update this policy to reflect changes in our practices or legal requirements. The “Last updated” date will change accordingly. Please review it periodically.
+
+Contact Us
+For questions, data requests or privacy concerns, use the GPT’s Feedback action or email aloha@aloh.ai.
