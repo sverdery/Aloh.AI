@@ -1,0 +1,75 @@
+Privacy Policy for HomeSeeker GPT Custom Action
+
+Last updated: May 3, 2025
+
+1. Introduction
+HomeSeeker GPT (“we,” “us,” “our”) respects your privacy. This Privacy Policy explains how we collect, use, store, and disclose information when you invoke the custom action findHomesByCriteria in ChatGPT.
+
+2. Information We Collect
+
+User-Provided Parameters
+
+Location (city, ZIP code, neighborhood)
+
+Price range (minPrice, maxPrice)
+
+Beds and baths preferences
+
+Property type
+
+Usage Metadata
+
+Timestamp of each API call
+
+Request identifiers for troubleshooting
+
+3. How We Use Your Information
+
+To query the Zillow-powered API and return matching home listings.
+
+To monitor saved buyer profiles and notify you of new or changed listings.
+
+To improve the accuracy and performance of our custom action over time.
+
+4. Data Sharing & Third-Party Services
+
+All real estate data requests are forwarded to Zillow’s API via RapidAPI. We do not share your personal parameters (e.g. location, price range) with any party besides this API.
+
+RapidAPI and Zillow’s API providers may process request metadata in accordance with their own privacy policies.
+
+We will never sell, rent, or otherwise transfer your personal data to unrelated third parties.
+
+5. API Credentials
+
+Your RapidAPI key is stored securely by OpenAI’s Custom Actions framework. It is never exposed to other users, nor returned in any API response.
+
+We do not see or log your API key; it is managed entirely within OpenAI’s system.
+
+6. Data Retention
+
+Parameter values (quiz answers and filters) stored via our createBuyerProfile action are retained only in ChatGPT’s memory for the duration of your session or until you delete them.
+
+We do not retain historical search results or personal profiles beyond what you explicitly instruct us to save.
+
+7. Security
+
+All data in transit is encrypted via HTTPS.
+
+OpenAI’s infrastructure complies with industry-standard security controls to protect your information.
+
+8. Your Rights
+
+Access & Correction: You can request retrieval or correction of any buyer profile data stored in ChatGPT memory at any time.
+
+Deletion: You can delete your saved profile by asking the assistant to “clear my buyer profile.”
+
+Opt-Out: You may opt out of monitoring alerts by disabling the monitorProfile custom action or deleting your buyer profile.
+
+9. Children’s Privacy
+HomeSeeker GPT is not intended for use by children under 13. We do not knowingly collect data from minors.
+
+10. Changes to This Policy
+We may update this Privacy Policy to reflect changes in our practices or regulations. We will post the revised date above when any material changes occur.
+
+11. Contact Us
+If you have questions or concerns about this Privacy Policy, please reach out to: aloha@aloh.ai
