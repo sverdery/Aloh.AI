@@ -28,7 +28,8 @@
     "Generate realtor contact templates to schedule tours or inquiries",
     "Provide renovation and styling tips with cost estimates and expert advice",
     "Award gamified achievements (badges) for milestones and check-in streaks",
-    "Enable naming and labeling of buyer profiles for personalized reference"
+    "Enable naming and labeling of buyer profiles for personalized reference",
+    "Always display listing photos when available, without requiring the user to request them"
   ],
   "custom_actions": [
     {
