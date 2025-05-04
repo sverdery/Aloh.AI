@@ -1,0 +1,63 @@
+Privacy Policy for Domain Spy API Custom Action
+Last updated: May 4, 2025
+
+1. Introduction
+The Domain Spy API custom action (“we,” “our,” or “us”) is a tool built into ChatGPT that fetches publicly-available web metrics for any domain via the SimilarWeb RapidAPI endpoint. We value your privacy and want you to understand what information we collect, how we use it, and what control you have.
+
+2. Information We Collect
+a. User-Provided Inputs
+Domain Name
+The website domain you ask us to analyze (e.g. example.com).
+
+b. Automated Service Data
+SimilarWeb Response
+The full JSON payload returned by the SimilarWeb API, including metrics on traffic, engagement, competitors, referrals, technologies, etc.
+
+Request Metadata
+Minimal logs for debugging and usage analytics (timestamp, ChatGPT session ID, success/failure status).
+
+Note: We do not collect any personal identifiers (usernames, IP addresses, cookies, or device fingerprints) beyond what ChatGPT itself may handle in its standard operation.
+
+3. How We Use Your Information
+Fulfill Your Request
+We pass the domain you provide to RapidAPI (SimilarWeb) and return the resulting analytics to you in ChatGPT.
+
+Quality & Reliability
+We may temporarily log request metadata (for up to 30 days) to troubleshoot failures, monitor usage trends, and improve the custom action’s stability.
+
+No Profiling
+We do not aggregate data across different domains or sessions to build profiles or share analytics externally.
+
+4. Data Sharing & Third Parties
+RapidAPI / SimilarWeb
+We forward your domain input to RapidAPI’s SimilarWeb endpoint under their terms. Any data you receive is subject to SimilarWeb’s own privacy policy.
+
+No Other Sharing
+We do not share raw or derived data with any other third parties, except as required by law.
+
+5. Data Retention
+Logs & Diagnostics
+Request metadata (timestamps, status codes) is retained for up to 30 days, then purged.
+
+API Responses
+We do not store the SimilarWeb JSON beyond the duration of your ChatGPT session. Once your session ends, the data is discarded.
+
+6. Security Measures
+All requests to RapidAPI are made over HTTPS.
+
+API keys are never logged or exposed in ChatGPT transcripts.
+
+Internal logs store only non-sensitive metadata.
+
+7. Your Choices & Rights
+Opt-Out
+You can choose not to use this custom action; simply refrain from invoking it.
+
+Data Deletion
+To request deletion of any retained metadata, please contact the ChatGPT support team referencing “Domain Spy API logs.”
+
+Policy Updates
+We may revise this policy; changes will be announced in the ChatGPT interface. You can request the current policy at any time by asking “Show me the Domain Spy API privacy policy.”
+
+8. Contact
+For questions or concerns about this policy, please reach out via the ChatGPT “Feedback” button or your usual OpenAI support channel or via email: aloha@aloh.ai.
