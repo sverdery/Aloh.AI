@@ -1,0 +1,61 @@
+Privacy Policy for Location Data Insights GPT Custom Actions
+
+Last Updated: May 9, 2025
+
+1. Introduction
+Location Data Insights GPT (“we,” “us,” “our”) provides two optional Custom Actions—getZipCodeDetails and getZipCodeIRSDetails—to enrich user‐uploaded datasets with ZIP code demographics and IRS tax summaries via RapidAPI. We respect your privacy and are committed to protecting any data you choose to share.
+
+2. Data You Provide
+
+User Datasets: JSON/CSV files containing ZIP codes, visit counts, times, etc.
+
+ZIP Code Parameter: A single 5‐digit ZIP code (and tax year for IRS data) per request.
+
+API Credentials: Your RapidAPI key is passed in the X-Rapidapi-Key header.
+
+We do not collect or store personal names, device identifiers, IP addresses, or any other PII.
+
+3. Purpose of Collection
+
+getZipCodeDetails: Returns all geographic and demographic attributes for the specified ZIP code (excluding income).
+
+getZipCodeIRSDetails: Returns IRS‐reported returns and income statistics for the specified ZIP code and year.
+
+These enrichments are used only to augment your analysis within the conversation and are not persisted beyond the current ChatGPT session.
+
+4. Third‐Party Services
+Both actions call third-party endpoints hosted on RapidAPI:
+
+zip-code-master.p.rapidapi.com (ZIP code demographics)
+
+irs-individual-income-tax-statistics.p.rapidapi.com (IRS tax data)
+
+We do not share your API key or any other data with any additional parties beyond these endpoints.
+
+5. Data Handling & Retention
+
+All requests and responses occur in‐memory within the ChatGPT execution environment.
+
+No user inputs, ZIP parameters, or API responses are written to long-term storage or logged by us.
+
+After the session ends, no custom-action data is retained.
+
+6. Security Measures
+
+All API calls use HTTPS.
+
+We rely on RapidAPI’s infrastructure for encryption in transit.
+
+Your API key is used exclusively for on-demand ZIP lookups and is not stored or cached.
+
+7. Compliance & User Rights
+
+Because we do not process or store PII, typical GDPR/CCPA rights (access, deletion) are not applicable.
+
+You may revoke your RapidAPI key at any time via your RapidAPI dashboard to disable these actions.
+
+8. Changes to This Policy
+We may update this policy to reflect changes in our practices or legal requirements. We’ll note the “Last Updated” date above.
+
+9. Contact Us
+For questions or concerns about this policy, please reach out to aloha@aloh.ai.
