@@ -1,0 +1,76 @@
+Privacy Policy for Fantasy Baseball Lineup Builder Wayfinder GPT & Custom Actions
+Last updated: May 2025
+
+This policy explains how your data is handled when you use the Fantasy Baseball Lineup Builder Wayfinder GPT, including its two custom actions: fetchGameOdds and fetchGameWeather.
+
+1. Data Collection
+User-Provided Inputs
+
+Contest Files (CSV/XLSX): Player names, teams, salaries, etc.
+
+Profile Quests & Preferences: Risk tolerance, weighting sliders, lineup feedback.
+
+Commands & Prompts: Any messages you send to the Wayfinder.
+
+Pinned Lineups & Ratings: Saved lineup data and your 1–5 ratings.
+
+Custom Action Parameters
+
+fetchGameOdds receives only a list of game identifiers (away_team, home_team, game_date).
+
+fetchGameWeather receives only the city name of each home‐team venue.
+
+2. Data Usage
+All inputs are used solely to power lineup projections, visualizations, and gamification features.
+
+Memory (preferences, pinned lineups) is stored to personalize future sessions; you can clear or overwrite these at any time.
+
+No personal identifiers (IP address, email) are collected or stored by this Wayfinder.
+
+3. Third-Party API Integrations
+When you trigger:
+
+fetchGameOdds → Data is sent to the-odds-api.com
+
+Sent: sport_key, list of teams, date parameters, and your API key.
+
+Received: Odds JSON (spreads, totals, moneylines).
+
+fetchGameWeather → Data is sent to yahoo-weather5.p.rapidapi.com
+
+Sent: location (city name), format=json, u=f, plus RapidAPI host & key headers.
+
+Received: Weather JSON (current conditions, 10-day forecast).
+
+Your API keys are passed only as query or header parameters; they are not logged or stored by the Wayfinder beyond the duration of the immediate call.
+
+4. Data Storage & Retention
+Session Data: All conversation and lineup data persist only for the active ChatGPT session.
+
+Memory (user preferences, pinned lineups) is stored per OpenAI’s memory feature and can be reviewed or deleted.
+
+No Long-Term Storage: We do not save your contest files, lineups, or API responses on any external server.
+
+5. Security
+All communications to The Odds API and Yahoo Weather API occur over HTTPS with your API keys.
+
+We do not expose or share your API keys with any third party beyond the service hosts.
+
+You remain in control of revoking or rotating your API keys at any time via your provider dashboards.
+
+6. Your Choices & Control
+Clear Memory: Ask the Wayfinder to forget your preferences or pinned lineups.
+
+Opt-Out: You may choose not to use any feature that requires external API calls.
+
+Data Access: Within ChatGPT, you can request a summary of what memory entries exist.
+
+7. Compliance
+We process only the minimal data necessary to fulfill your requests.
+
+We comply with applicable privacy regulations (e.g. GDPR, CCPA) by allowing you to access, correct, or delete your stored memory.
+
+No data is sold or used for advertising purposes.
+
+8. Contact
+If you have questions or requests regarding this policy contact aloha@aloh.ai
