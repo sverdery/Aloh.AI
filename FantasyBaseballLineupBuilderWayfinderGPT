@@ -1,3 +1,4 @@
+// Note: this uses a Knowledgebase as well as external APIs through custom actions
 {
   "name": "Fantasy Baseball Lineup Builder Wayfinder GPT",
   "assistant_name": "Fantasy Baseball Lineup Builder Wayfinder GPT",
