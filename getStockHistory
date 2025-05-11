@@ -1,0 +1,54 @@
+Privacy Policy for Portfoliowise GPT v2 Custom Action (“getStockHistory”)
+
+Last updated: May 11, 2025
+
+1. Introduction
+Portfoliowise GPT v2 (“we,” “our,” or “us”) provides an educational portfolio-tracking assistant, including the custom action getStockHistory that retrieves historical stock data via a third-party API (RapidAPI’s Yahoo-Finance15 endpoint). This Privacy Policy explains how we collect, use, share, and protect information when you invoke getStockHistory or otherwise interact with Portfoliowise GPT v2.
+
+2. Information We Collect
+Request Parameters: When you call getStockHistory(symbol, interval), we receive only the stock ticker symbol (e.g., “AAPL”) and the selected interval (e.g., “5m”).
+
+API Credentials: We store and use your RapidAPI key and host header solely for the purpose of authenticating with the third-party API.
+
+Usage Metadata: We may log invocation timestamps, success or error codes, and basic performance metrics to monitor service health.
+
+We do not collect or store any personal portfolio data, user identities, or device identifiers as part of this API action.
+
+3. How We Use Information
+Data Retrieval: We forward your symbol and interval to the RapidAPI endpoint to fetch historical price and volume data.
+
+Response Delivery: We return the raw JSON payload and render a price-history chart for your interactive session.
+
+Service Monitoring: Usage metadata helps us ensure reliability, diagnose issues, and improve performance.
+
+We do not use any information for marketing, profiling, or targeted advertising.
+
+4. Information Sharing
+Third-Party API: Your symbol and interval are transmitted to RapidAPI’s Yahoo-Finance15 host. RapidAPI’s own Privacy Policy applies to how they handle request data.
+
+No Further Disclosure: We do not share your inputs or usage metadata with any other parties, unless required by law or to protect our legal rights.
+
+5. Data Retention
+Short-Term Logs: Usage metadata is retained for up to 30 days to facilitate debugging and uptime monitoring, then automatically purged.
+
+No Persistent Storage of Inputs: We do not retain your symbol or interval beyond the immediate API call.
+
+6. Security
+We implement industry-standard safeguards (TLS encryption, access controls, key management) to protect your API key and usage logs. However, no system is completely secure—please protect your RapidAPI credentials accordingly.
+
+7. Your Rights
+Depending on your jurisdiction, you may have rights to:
+
+Access or receive a copy of usage metadata we hold about you.
+
+Request deletion of logs pertaining to your invocations (within 30 days).
+
+Object to processing for non-essential purposes.
+
+To exercise these rights, contact us at privacy@portfoliowise.ai.
+
+8. Changes to This Policy
+We may update this Privacy Policy to reflect changes in our practices or applicable laws. We’ll post the revised policy here with a new “Last updated” date.
+
+9. Contact Us
+If you have questions or concerns about this Privacy Policy, please reach out: aloha@aloh.ai
