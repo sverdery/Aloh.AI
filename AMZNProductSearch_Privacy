@@ -1,0 +1,34 @@
+Privacy Policy for AMZN Product Search Custom Action
+Data Collection and Use
+The AMZN Product Search custom action uses your provided search parameters (e.g., product query, page number, sorting preferences, price range) to retrieve product listings directly from the Real-Time AMZN Data API.
+
+No personal user data other than your provided search parameters is transmitted or stored during the operation of this custom action.
+
+Data Processing
+Search requests are securely routed through the Real-Time AMZN Data API hosted on RapidAPI.
+
+Product search results returned by this API are used solely to fulfill your request within the current session and are not stored or logged beyond the immediate interaction.
+
+Data Retention
+All data obtained through this custom action is handled strictly in-session and is not retained after completion of your request.
+
+Security Measures
+All requests to the Real-Time AMZN Data API utilize secure HTTPS connections.
+
+Your API key is securely stored and handled within ChatGPT's secure environment, never exposed or accessible externally during interactions.
+
+Third-party Disclosure
+This custom action does not disclose or share any information to third parties beyond the specified Real-Time AMZN Data API required to fulfill the search request.
+
+Compliance
+The use of this custom action fully complies with:
+
+ChatGPT’s custom actions guidelines and terms of use.
+
+Real-Time AMZN Data API usage guidelines and RapidAPI’s terms of service.
+
+User Consent
+By using this custom action, you explicitly consent to the above-described processing of the provided search parameters solely for fulfilling the product search request.
+
+Contact Information
+For questions regarding this Privacy Policy or the handling of your data within this custom action, please contact the administrator directly via the provided support channel. aloha@aloh.ai
