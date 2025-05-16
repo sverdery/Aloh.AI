@@ -1,0 +1,32 @@
+Privacy Policy for OCR Text Extraction Custom Action
+Data Collection:
+
+This custom action processes publicly accessible image URLs provided explicitly by the user. The action extracts text from the images using the OCR43 API via RapidAPI.
+
+Data Usage:
+
+Image URLs and the extracted text results are used solely for the immediate OCR processing purpose within your GPT interaction.
+
+No additional data usage or analysis beyond OCR extraction is performed.
+
+Data Retention:
+
+Images and OCR-extracted text are not stored or retained after processing.
+
+Neither OpenAI nor OCR43 API retains or persists any user-provided data beyond the completion of the OCR request-response cycle.
+
+Third-Party Sharing:
+
+Image URLs provided are sent securely to the OCR43 API (via RapidAPI) strictly for text extraction processing. No other third-party sharing occurs.
+
+RapidAPI and OCR43 API adhere to their respective privacy standards. Refer to RapidAPI and OCR43 documentation for details.
+
+User Consent:
+
+By invoking this OCR Text Extraction action, users explicitly consent to the secure transmission and processing of their provided image URLs for OCR extraction purposes.
+
+Compliance & User Responsibilities:
+
+Users must ensure that uploaded image URLs do not contain sensitive or personally identifiable information (PII).
+
+Users are responsible for compliance with all applicable data privacy laws and regulations regarding content uploaded or processed through this action.
