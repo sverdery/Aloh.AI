@@ -1,0 +1,65 @@
+Privacy Policy for JobMatch GPT Custom Action
+Effective Date: May 19, 2025
+Last Updated: May 19, 2025
+
+Introduction
+
+Your privacy is important to us. This Privacy Policy describes how we collect, use, share, and protect your information when you use the JobMatch GPT Custom Action, which connects your provided information and preferences to a third-party job-matching service.
+
+Information We Collect
+When using JobMatch GPT Custom Action, we may collect and transmit the following information to the external Job Search API:
+
+Job Preferences and Profile Information:
+Information you voluntarily provide about your desired job type, work arrangements, skills, experience level, preferred locations, and other job-related preferences.
+
+Technical and Usage Data:
+Parameters and filters explicitly provided by you (e.g., job titles, remote preferences, locations, experience levels).
+
+Note:
+We do not share your full resume document or any personally identifiable information (PII) beyond explicitly stated parameters. We limit the information shared to the minimum necessary to fulfill your request.
+
+How We Use Your Information
+We use your provided information exclusively to:
+
+Retrieve job listings that align with your specified career preferences and profile criteria.
+
+Provide personalized job matching, recommendations, and insights through the JobMatch GPT interface.
+
+Information Sharing and Third-party Services
+Third-Party API Provider:
+Your provided parameters and job preference information will be sent securely to the external job search API solely for retrieving relevant job opportunities.
+
+No Further Sharing:
+We do not sell, trade, or otherwise transfer your information to any other parties for marketing or unrelated purposes.
+
+Data Security and Protection
+We implement robust security measures designed to protect your information during API calls and communication:
+
+All API requests are conducted securely (HTTPS).
+
+Information transmitted to the third-party API is strictly limited to specified parameters necessary for job matching purposes.
+
+We maintain strict confidentiality and safeguard procedures to prevent unauthorized disclosure.
+
+Data Retention
+We do not store or retain any personal information or job search parameters beyond the duration of your interaction. Once your request is fulfilled and your session ends, your provided parameters are discarded.
+
+Your Rights and Choices
+You control the information you provide via interactive prompts.
+
+You can request clarification about the handling or deletion of your provided parameters at any time.
+
+Compliance
+JobMatch GPT Custom Action complies fully with OpenAI’s ChatGPT policies regarding the usage of custom actions and external API integrations:
+
+Transparency: Clearly informing users of what data is shared.
+
+Minimal Data Sharing: Only essential information is communicated.
+
+Security: Secure data transmission and immediate disposal post-session.
+
+Updates to This Privacy Policy
+We may update this privacy policy periodically. Any changes will be clearly posted here, with the date of the latest revision noted at the top of this document.
+
+Contact Information
+For any questions or concerns about this privacy policy or your data, please contact: aloha@aloh.ai
