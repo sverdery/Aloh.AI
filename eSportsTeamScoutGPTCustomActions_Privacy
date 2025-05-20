@@ -1,0 +1,47 @@
+Privacy Policy for eSports Team Scout GPT Custom Actions
+
+Last updated: 05.20.2025
+
+Thank you for using eSports Team Scout GPT. This Privacy Policy outlines how user information is managed and protected when utilizing custom actions integrated via Esports Devs API through RapidAPI.
+
+Information Collected
+
+When interacting with eSports Team Scout GPT, we may collect:
+
+Query Information: Information provided voluntarily by users, such as player names, team names, match IDs, coach IDs, and arena details.
+
+Usage Data: Technical data on how users interact with the GPT, including action requests and frequency of specific queries.
+
+We do not collect or store personal identifiable information (PII) beyond user-provided queries necessary to fulfill GPT actions.
+
+Purpose of Data Collection
+
+Collected information is used exclusively for:
+
+Providing detailed analytics and insights requested by users.
+
+Enhancing GPT functionality and improving user experience.
+
+Data Sharing
+
+Information is securely transmitted to and processed by Esports Devs API via RapidAPI solely to fulfill specific requests.
+
+We do not share your data with any other third parties.
+
+Data Storage and Security
+
+Data obtained through API requests is transient and is not persistently stored after the completion of a session.
+
+Robust security measures are employed to protect data during transmission.
+
+Compliance
+
+These custom actions fully comply with OpenAI’s and ChatGPT’s requirements for custom GPT actions, including handling API requests securely and ensuring user data privacy.
+
+Changes to Privacy Policy
+
+This policy may be updated periodically. Users will be informed of significant changes via GPT interaction notices.
+
+Contact Information
+
+For any questions or concerns regarding this Privacy Policy, please contact us at: aloha@aloh.ai
