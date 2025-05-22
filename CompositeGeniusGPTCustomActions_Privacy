@@ -1,0 +1,57 @@
+Privacy Policy for CompositeGenius GPT Custom Actions
+1. Information Collection
+When using the CompositeGenius GPT and its Custom Actions, the following data may be collected:
+
+Uploaded Data: Files (e.g., CSV, Excel, JSON) that you upload for analysis.
+
+Instructions and Parameters: Text-based instructions and parameters provided to execute data analysis and calculations.
+
+Request Metadata: Unique identifiers (id) for tasks, timestamps, and basic usage data.
+
+2. Use of Information
+Collected information is exclusively used to:
+
+Perform automated data analysis, summarization, and calculations as explicitly instructed.
+
+Deliver outputs and results back to you clearly and accurately.
+
+Generate and provide reusable analysis or calculation code for your convenience.
+
+3. Data Storage and Retention
+Uploaded files and processed data are temporarily stored to complete your requested tasks.
+
+All uploaded files and generated outputs are automatically deleted within 60 minutes after processing. It is strongly recommended to download and store results immediately after generation.
+
+Persistent storage of your original files or processed results beyond task completion is not performed or supported.
+
+4. Data Security and Confidentiality
+All API requests and responses are securely transmitted using encrypted HTTPS connections.
+
+API access is protected by secured authentication keys (X-Rapidapi-Key).
+
+Data provided for analysis or calculation is never used for purposes other than those explicitly requested.
+
+5. Third-Party Sharing
+Your data will not be shared, sold, rented, or distributed to any third-party outside of the necessary API provider (reef1.p.rapidapi.com) used explicitly for processing requested tasks.
+
+6. User Rights and Control
+You have the right to access, modify, or delete your uploaded data and associated outputs by directly managing these files.
+
+Due to automatic deletion policies, ensure you retain copies of important files or outputs as needed.
+
+7. Compliance and Liability
+These Custom Actions are compliant with ChatGPT's data handling and privacy policies, designed specifically to respect your privacy and confidentiality.
+
+CompositeGenius GPT Custom Actions assume no liability for data loss resulting from automatic data deletion policies. You are responsible for immediate downloading and safeguarding your results.
+
+8. Changes to this Policy
+We reserve the right to update or modify this privacy policy at any time. Updates will be clearly communicated within the GPT interaction.
+
+Contact Information
+For questions or clarifications regarding this policy or data handling practices, please contact:
+
+aloha@aloh.ai
+
+By using CompositeGenius GPT Custom Actions, you agree to this privacy policy.
+
+Last Updated: May 21, 2025
