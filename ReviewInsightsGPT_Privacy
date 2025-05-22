@@ -1,0 +1,48 @@
+Your privacy is important. This policy outlines the handling, use, and protection of your data when you interact with our custom GPT integration ("Custom Actions") with RapidAPI's Local Business Data endpoint.
+
+Information We Collect
+When you use these custom actions, the following information may be collected and processed:
+
+Search Queries:
+Queries and parameters you submit, such as business names, keywords, location, and language preferences.
+
+Business Review Requests:
+Business IDs you provide when requesting detailed business reviews.
+
+API Response Data:
+Information returned by the RapidAPI endpoint, including business details, review content, author information, and associated metadata.
+
+Use of Information
+Information collected via Custom Actions is solely used to:
+
+Provide targeted business searches and retrieve business reviews.
+
+Enable detailed business analyses and recommendations within the GPT assistant.
+
+Improve and optimize the performance and accuracy of your GPT interactions.
+
+We do not use this information for marketing, advertising, or any unrelated third-party purposes.
+
+Data Retention
+Your data is retained only temporarily and is not stored persistently beyond your current session, unless explicitly stated and agreed upon by you within the GPT session or your service agreement.
+
+Third-Party API and Data Handling
+We integrate the RapidAPI Local Business Data endpoint to fulfill your requests:
+
+RapidAPI Privacy Policy
+
+Local Business Data API Terms
+
+You are encouraged to review their respective privacy policies to understand how they manage your requests and associated data.
+
+Security
+We maintain strict data security measures to prevent unauthorized access, disclosure, alteration, or destruction of your information.
+
+Compliance
+Our custom actions adhere to applicable data protection and privacy laws, including GDPR, CCPA, and any other relevant regulatory frameworks.
+
+Changes to This Privacy Policy
+We may occasionally update this Privacy Policy. We encourage you to review this periodically to remain informed about how we protect your data.
+
+Contact Information
+For any questions or concerns regarding this Privacy Policy or data handling practices, please contact us at: aloha@soulvere.com
