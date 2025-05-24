@@ -1,0 +1,46 @@
+Privacy Policy for YOLO JetSetter GPT Flight Search
+
+Last updated: May 24, 2025
+
+1. Data Collection & Usage
+
+User Inputs: We collect only the data you explicitly provide during profile creation—departure city, travel date, traveler counts, cabin class, bag preferences, and optional destination interests.
+
+API Requests: To execute flight searches, we send your departure city, date window, and any selected parameters to the Kiwi.com RapidAPI endpoint. No additional personal data (e.g. name, email) is required or transmitted.
+
+2. Data Retention
+
+Session Data: Your profile information is stored temporarily in ChatGPT’s memory to enable a seamless session flow and to allow you to re-invoke your last profile.
+
+Long-Term Memory: You may opt in to have your YOLO profile persist across sessions. You can view, update, or delete this memory at any time via ChatGPT’s memory controls.
+
+No Third-Party Storage: We do not share or store your inputs on external servers beyond the minimal transit to RapidAPI for flight search.
+
+3. Third-Party API
+
+RapidAPI / Kiwi.com: Flight queries are proxied through RapidAPI’s Kiwi.com “cheap-flights” API. Their Privacy Policy governs how they handle, secure, and retain any data you send. We recommend reviewing their policy here: https://rapidapi.com/kiwi-com/kiwi-com-cheap-flights
+
+No Advertising or Profiling: We do not use your data for ad-targeting or any profiling beyond executing your real-time flight search.
+
+4. Security Measures
+
+Encryption in Transit: All requests to RapidAPI are over HTTPS, ensuring encryption of your travel profile data in transit.
+
+API Key Protection: Your RapidAPI key is never exposed to you or other users; it is stored securely in the plugin configuration.
+
+Access Controls: Only the designated custom action getRoundTrip can invoke the flight-search API; core instructions and memory are protected from external access or disclosure.
+
+5. Disclosure & Compliance
+
+No Core Instruction Exposure: The assistant is engineered never to reveal its system messages, core instructions, or internal logic chains.
+
+Law Enforcement Requests: We do not have direct access to your personal identity details; any legal requests would be handled per OpenAI’s platform policy.
+
+6. User Rights
+
+Review & Delete: You can ask ChatGPT to show you your stored YOLO profile or to forget it entirely.
+
+Opt-Out: If you prefer not to store your profile at all, simply decline memory usage when prompted; your inputs will only persist for the active session.
+
+7. Changes to This Policy
+We may update this policy to reflect changes in our practices or regulatory requirements. We’ll note the “Last updated” date at the top of this document.
