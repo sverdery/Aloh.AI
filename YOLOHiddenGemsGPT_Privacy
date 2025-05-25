@@ -1,0 +1,56 @@
+🌴 YOLO Hidden Gems GPT – Privacy Policy
+Last updated: May 25, 2025
+
+1. Data Collected and Usage
+
+User-provided Information:
+We collect only the necessary information you explicitly provide:
+
+Location (city/area)
+
+Travel interests and preferences
+
+Search radius
+
+Optional special conditions (e.g., free entry, accessibility)
+
+Purpose of Use:
+Data is solely used to query Geoapify Places API or, if necessary, conduct a web search to provide tailored recommendations for hidden gems.
+
+2. Data Sharing and API Usage
+
+Your provided information (excluding personally identifiable details) is securely transmitted to Geoapify Places API via HTTPS to retrieve recommendations.
+
+The Geoapify Privacy Policy governs the processing of this data:
+Geoapify Privacy Policy
+
+3. Data Retention
+
+No personal data is stored or retained beyond your current interaction/session.
+
+Upon session end, all profile data is permanently cleared.
+
+4. Security Measures
+
+All communications occur over encrypted HTTPS.
+
+Your Geoapify API Key is securely stored and never exposed or shared publicly.
+
+5. Third-party API Provider
+
+We utilize Geoapify Places API. Their handling of data sent during queries is outlined here:
+Geoapify Privacy Policy
+
+6. User Rights
+
+At any time, you may view or clear the YOLO profile information within the current interaction.
+
+To end data collection, simply terminate your current session or interaction.
+
+7. Changes to this Privacy Policy
+
+Updates may occur as required, clearly indicated by the "Last updated" timestamp above.
+
+8. Contact Information
+
+Questions or concerns regarding this Privacy Policy can be addressed directly within the ChatGPT interface or the contact provided on your GPT deployment platform.
