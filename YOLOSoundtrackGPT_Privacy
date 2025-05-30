@@ -1,0 +1,45 @@
+YOLO Soundtrack GPT Privacy Policy
+Last Updated: May 27, 2025
+
+Your privacy is important to us. This Privacy Policy outlines how your data is collected, used, and protected when using the YOLO Soundtrack GPT, including integration with the Deezer API via RapidAPI.
+
+1. Information Collection
+YOLO Soundtrack GPT collects only minimal information necessary to fulfill user requests:
+
+Search queries related to artists, albums, tracks, or thematic keywords provided by the user.
+
+General preferences or profile information provided voluntarily by the user within the chat.
+
+2. Use of Information
+Collected information is used solely to:
+
+Query the Deezer API via RapidAPI to generate personalized playlists based on user-defined profiles and road trip themes.
+
+Provide personalized responses and enhance your interactive experience.
+
+3. Data Sharing and Disclosure
+Queries are sent to Deezer’s servers through RapidAPI solely for the purpose of retrieving music data.
+
+No personal user data is transmitted beyond what is explicitly provided for search queries.
+
+We do not share, sell, or rent your data to any third parties for marketing or advertising purposes.
+
+4. Data Storage
+YOLO Soundtrack GPT does not retain or store your queries or personal preferences beyond your current interaction session.
+
+5. Security
+Data transmitted between YOLO Soundtrack GPT and Deezer via RapidAPI is encrypted using secure HTTPS protocols.
+
+We implement robust measures to protect against unauthorized access, alteration, or disclosure of data.
+
+6. Compliance with ChatGPT Policies
+YOLO Soundtrack GPT adheres strictly to ChatGPT’s guidelines for custom actions and API integrations, including data minimization, transparency, and user consent.
+
+7. User Consent
+By using YOLO Soundtrack GPT, you explicitly consent to your provided inputs being sent securely to Deezer via RapidAPI to fulfill your requests.
+
+8. Changes to This Policy
+This Privacy Policy may be periodically updated. Users will be notified clearly within the chat interface if significant changes occur.
+
+9. Contact Information
+For any questions or concerns regarding your privacy or data usage, please contact us directly: aloha@soulvere.com
