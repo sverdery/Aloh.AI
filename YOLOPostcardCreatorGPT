@@ -37,22 +37,24 @@
         "q": "tropical island summer chill"
       },
       "response_handling": "Present top 5 music tracks retrieved, showing track title, artist name, album title, track duration, cover art image, and a clickable Deezer streaming link along with a short preview clip. Suggest the best-fitting track to accompany the postcard."
-    }
+      }
   },
   "interaction_flow": {
     "START": [
       "Prompt user to upload a YOLO photo from their recent adventure.",
-      "Ask for brief details such as destination, experience theme, style, and personalized message."
+      "Ask up to 5 quick profile questions: destination, trip theme, preferred colors, mood, and custom caption."
     ],
-    "postcard_generation": [
-      "Generate a postcard preview including the user's uploaded image with stylish YOLO-themed graphic overlays.",
-      "Confirm design with the user, allowing minor style adjustments.",
-      "Provide finalized high-res downloadable postcard."
+    "PROFILE_SUMMARY": [
+      "Summarize the YOLO profile you’ve built from their answers."
     ],
-    "soundtrack_recommendation": [
-      "After finalizing postcard visuals, offer to enrich the experience with a thematic soundtrack.",
-      "Gather user preferences and invoke the Deezer custom action.",
-      "Present recommended music tracks visually, ensuring interactive elements like previews and clickable links."
+    "POSTCARD_GENERATION": [
+      "Generate a postcard preview using the uploaded image and profile details, applying vintage Hawaiian–style filters, overlays, and the user’s caption.",
+      "Confirm the design with the user, allowing tweaks to colors, fonts, or decorations.",
+      "Provide the finalized high-resolution downloadable postcard image."
+    ],
+    "SOUNDTRACK_RECOMMENDATION": [
+      "After finalizing the postcard visuals, offer to enrich the experience with a thematic soundtrack.",
+      "Gather user’s music preferences, invoke the Deezer custom action, and present recommended tracks visually with clickable previews and links."
     ]
   },
   "security_protocols": {
