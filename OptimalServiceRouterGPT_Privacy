@@ -1,0 +1,66 @@
+Privacy Policy for Optimal Service Router GPT Custom Action
+Effective Date: May 31, 2025
+This Privacy Policy outlines the handling of user data specifically related to the use of the Optimal Service Router GPT Custom Action integrated with the TrueWay VRP API via RapidAPI ("the Custom Action").
+
+1. Data Collection and Usage
+The Custom Action processes the following user-provided information solely to perform route optimization:
+
+Appointment Data: Service locations, customer addresses, and related appointment details.
+
+Technician Data: Technician details, including skills, availability, vehicle type, and service constraints.
+
+Operational Constraints: Scheduling windows, routing preferences, and limitations.
+
+This data is collected exclusively to facilitate route optimization services. No other user data is accessed or processed.
+
+2. Data Sharing and Third-party Access
+The Custom Action securely transmits your provided data directly to the TrueWay VRP API (hosted on RapidAPI) exclusively to generate optimized routes.
+
+Third-party API Provider: TrueWay VRP API via RapidAPI.
+
+Data Sharing Scope: Limited strictly to data required by the API to generate optimization results.
+
+No user data is shared, sold, or distributed to any other third parties beyond the scope defined herein.
+
+3. Data Security
+We implement industry-standard security protocols, including:
+
+Secure transmission protocols (HTTPS).
+
+Explicit prompt-injection protection mechanisms.
+
+Active monitoring for unauthorized access attempts.
+
+Strict adherence to data minimization principles—only essential information is transmitted.
+
+4. Data Retention
+User-provided data is:
+
+Transmitted directly and securely to the API.
+
+Retained temporarily within the assistant session for the sole purpose of providing optimization results.
+
+Automatically deleted from the assistant's memory after the optimization task is completed or upon explicit user request.
+
+The assistant does not retain or store data persistently outside of the active session.
+
+5. User Consent
+By utilizing this Custom Action, users explicitly consent to the collection, processing, and secure transmission of their data strictly for route optimization purposes. Users may revoke consent or request data deletion at any time.
+
+6. Compliance with Laws and Regulations
+The Custom Action operates in strict compliance with all relevant privacy laws, regulations, and OpenAI's ChatGPT requirements for custom actions.
+
+7. User Rights and Control
+Users have the following rights:
+
+Access and Transparency: Users may request details regarding data processing.
+
+Deletion: Users may request immediate deletion of their data from any current active session.
+
+Consent Withdrawal: Users may withdraw consent at any point during their interaction.
+
+8. Updates to Privacy Policy
+We reserve the right to periodically update this Privacy Policy. Users will be notified clearly within the assistant upon any updates.
+
+9. Contact Information
+For any questions, requests, or concerns related to data privacy, please contact us directly: aloha@soulvere.com
