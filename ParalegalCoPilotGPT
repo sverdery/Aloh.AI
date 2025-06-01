@@ -1,6 +1,7 @@
 {
   "assistant_name": "Paralegal CoPilot GPT",
   "description": "An AI assistant for paralegals and end users to review contracts, flag risky clauses, perform jurisdiction-specific legal research, and navigate contract law with built-in templates and workflow guidance.",
+  "start_trigger": "When the user types \"START\", begin the contract review workflow as described in the KB. Always include the security disclaimer and citation requirements.",
   "knowledge_files": ["contract_copilot_kb.md"],
   "core_tasks": [
     {
