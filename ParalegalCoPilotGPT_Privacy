@@ -1,0 +1,192 @@
+Privacy Policy for Paralegal CoPilot GPT
+
+Last updated: June 2025
+
+Paralegal CoPilot GPT (“we,” “our,” or “the Service”) is powered by OpenAI’s ChatGPT platform and integrates a third-party “AI Lawyer Online Legal Advice” API (hosted via RapidAPI). Your privacy and data security are paramount. This Privacy Policy explains:
+
+What Data We Collect
+
+How We Use and Share Data
+
+Third-Party Data Handling (RapidAPI/AI Lawyer API)
+
+Data Retention and Security Measures
+
+User Controls & Rights
+
+Legal Disclosures & Compliance
+
+Updates to This Policy
+
+Contact Information
+
+1. What Data We Collect
+1.1. User-Provided Inputs
+Contract Text & Uploaded Documents
+When you paste or upload contract text (plain text, .docx, or .pdf), we process that entire text in memory to analyze, flag clauses, and generate summaries.
+
+Legal Questions & Context
+Any natural-language question you ask (e.g., “What makes a contract legally binding?”), including any additional metadata you provide (jurisdiction code, language preference, user role).
+
+User Role/Context Option
+If you specify your role (e.g., Freelancer, Startup, Paralegal), that descriptor is processed to tailor tone and recommendations.
+
+Optional Clause Comparison Data
+When you upload or paste a “baseline” clause for similarity checking, we process both texts temporarily for analysis.
+
+1.2. Metadata & Technical Data
+API Call Metadata
+Each time we invoke the AI Lawyer Online Legal Advice API (via RapidAPI), we transmit the minimal required headers (X-Rapidapi-Key, X-Rapidapi-Host) and your JSON payload containing “message,” “specialization,” “language,” and “jurisdiction.”
+
+System Logs (OpenAI Platform)
+OpenAI may log usage metrics (timestamps, request-IDs, model responses) to ensure service integrity, debugging, and platform monitoring.
+
+Session Context
+Temporary session context (conversation history) is retained in memory only during an active session to maintain conversational continuity. ChatGPT resets context when sessions end.
+
+2. How We Use and Share Data
+2.1. Data Processing & Purpose
+Contract Analysis & Summaries
+We process user-provided contract text solely to:
+
+Flag “red-flag” clauses and risk levels (🔴, 🟡, 🟢)
+
+Generate plain-English summaries and suggested revisions
+
+Provide interactive workflows (ToC, checklists, decision trees)
+
+Legal Research & Q&A
+When you ask a contract-law question, we forward your question to the AI Lawyer API. The API returns a text response and any included citations; we display that back to you.
+
+Improvement & Debugging
+Aggregate, anonymized usage metrics (no personally identifiable information or raw text) may be logged by OpenAI for model performance analysis, debugging, and feature enhancements. These logs do not contain your full contract text or specific question contents.
+
+2.2. Data Sharing
+With AI Lawyer API (RapidAPI)
+Any question you ask under “Legal Research & Q&A” is forwarded (with your jurisdiction and specialization) to RapidAPI’s “AI Lawyer Online Legal Advice” endpoint. RapidAPI processes your query to generate a response.
+
+With OpenAI
+Under OpenAI’s Data Usage Terms, input text may be used to train and improve underlying models unless you have an Enterprise or Data-Control plan that opts out. If you require that none of your inputs be used for model training, please contact us or ensure your OpenAI plan prohibits such sharing.
+
+No Other Third-Party Sharing
+We do not sell, rent, or share your raw contract text, questions, or session transcripts with any other third parties (law firms, advertisers, data brokers) unless explicitly authorized by you or required by law.
+
+3. Third-Party Data Handling (RapidAPI/AI Lawyer API)
+When we call the AI Lawyer API:
+
+Your Query Transmission
+
+We transmit your JSON payload (message, specialization: "contract", language: "en", jurisdiction) over HTTPS to RapidAPI.
+
+We include your API key only in the X-Rapidapi-Key header.
+
+RapidAPI’s Role
+
+RapidAPI routes this request to the “AI Lawyer Online Legal Advice” service provider.
+
+RapidAPI and the underlying service provider may log your request and their response for usage tracking, billing, and performance monitoring under their respective Privacy Policies.
+
+Response Handling
+
+The API’s JSON response (fields like answer and optional citation) is returned to us, and we display it to you.
+
+No Continued Storage by Us
+
+We do not retain copies of the RapidAPI response (beyond your current session). Once the session ends, that response is purged from memory.
+
+Note: We strongly encourage you to review RapidAPI’s privacy policy and the specific “AI Lawyer Online Legal Advice” service’s terms to understand how they process and retain data.
+
+4. Data Retention and Security Measures
+4.1. Retention
+Active Session Data
+
+Contract text, chat history, and user questions are held in memory only during your active session.
+
+When a session expires or you close the chat, all raw text is purged.
+
+Audit Logs & Anonymized Metrics
+
+OpenAI may store anonymized logs for up to 30 days (or longer, per OpenAI policy) for abuse detection and system reliability. These logs do not contain personally identifiable details or raw user content beyond what’s needed for troubleshooting.
+
+No proprietary contract language is stored in persistent logs unless required for billing or compliance, in which case it is redacted or anonymized.
+
+4.2. Security Controls
+Encryption In Transit
+
+All data between you and OpenAI’s servers (including third-party API calls) is encrypted via HTTPS/TLS.
+
+Access Controls
+
+Only authorized service components can decrypt data in transit.
+
+Personnel do not have direct access to session-specific contract text.
+
+Data Isolation
+
+Each user session is logically isolated from others.
+
+RapidAPI calls use your personal API key (if provided) or a shared business key, ensuring separation of queries.
+
+Regular Security Audits
+
+We adhere to OpenAI’s security best practices and RapidAPI’s requirements.
+
+Periodic reviews of data handling, key rotation procedures, and vulnerability scans are conducted.
+
+5. User Controls & Rights
+5.1. Access and Correction
+Because we do not permanently store your raw contract text or personal data, we generally cannot retrieve or edit data from past sessions.
+
+If you believe your information was logged improperly, contact us immediately (see Contact Information below) so we can investigate and, if necessary, delete any retained traces.
+
+5.2. Opt-Out of Training
+If you do not want your inputs (queries, contract text) used to improve or train underlying AI models:
+
+Verify your OpenAI account settings under Data Controls (if on a paid plan).
+
+Contact us to request that your session data be excluded from any future model-training sets.
+
+5.3. Deletion Requests
+We do not store identifying personal data long-term. Thus, upon session termination, your contract text is deleted.
+
+If you want confirmation of deletion or have additional data rights requests (e.g., if your organization’s policy requires a signed Data Processing Agreement), please reach out to our Privacy Officer (see Contact Information below).
+
+5.4. Children’s Privacy
+The Service is not intended for children under 13 years of age. If you are under 13, do not use or provide any personal data to Paralegal CoPilot.
+
+6. Legal Disclosures & Compliance
+6.1. No Legal Advice
+Paralegal CoPilot GPT is an informational tool. Its analyses and suggestions are not legal advice.
+
+Always consult a licensed attorney before making any binding decisions or taking legal action.
+
+6.2. Jurisdictional Boundaries
+The “Legal Research & Q&A” task relies on the AI Lawyer API, which is trained on general legal principles as of mid-2024.
+
+Laws differ by jurisdiction, and statutes/case references may have changed since the AI’s knowledge cutoff.
+
+We explicitly disclaim liability for accuracy or currency of legal information provided.
+
+6.3. Compliance with Data Protection Laws
+We comply with applicable data protection regulations, including GDPR, CCPA, and any other local privacy laws.
+
+If you reside in the EU/UK or California and believe your rights under GDPR/CCPA have been violated, please refer to Section 5 for contact and deletion requests.
+
+6.4. Lawful Requests
+We may disclose data if required by a valid court order, subpoena, or other legal process.
+
+In that event, we will notify you promptly (unless prohibited by law) so you can contest the request.
+
+7. Updates to This Policy
+We may update this Privacy Policy to reflect changes in:
+
+Applicable laws or regulations
+
+OpenAI or RapidAPI data-handling practices
+
+New features or architectural changes to Paralegal CoPilot GPT
+
+When we make significant updates, we will revise the “Last updated” date at the top. Reasonable notice (via platform notification or email, if provided) will be given before changes take effect.
+
+8. Contact Information
+If you have questions, concerns, or requests about this Privacy Policy or your data: aloha@soulvere.com
