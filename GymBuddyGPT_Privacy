@@ -1,0 +1,62 @@
+GymBuddy GPT Privacy Policy
+Last Updated: June 1, 2025
+
+Introduction
+
+This Privacy Policy explains how GymBuddy GPT ("we," "our," or "us") collects, uses, and protects your data when you use GymBuddy GPT’s Custom Action integration with ExerciseDB API via RapidAPI.
+
+Data Collection and Usage
+
+GymBuddy GPT uses the ExerciseDB API via RapidAPI solely to:
+
+Retrieve detailed exercise information.
+
+Generate personalized workout recommendations.
+
+Provide visual exercise demonstrations and technique guidance.
+
+When you interact with GymBuddy GPT, the following data may be temporarily processed:
+
+Fitness preferences (body parts, equipment, target muscles).
+
+Exercise details retrieved from ExerciseDB API (exercise names, instructions, GIF URLs, muscle groups, equipment).
+
+No personally identifiable information (PII) beyond your stored fitness profile preferences is shared with the ExerciseDB API. Your data is strictly used to provide personalized and accurate responses to your workout-related queries.
+
+Data Not Collected or Stored
+
+We do NOT:
+
+Permanently store personal identifiers (e.g., full names, addresses, email addresses).
+
+Share your profile or interaction data externally beyond ExerciseDB API requests.
+
+Sell, lease, or distribute any collected data to third parties for marketing or any other unrelated purposes.
+
+Data Security and Retention
+
+All API requests made by GymBuddy GPT are securely transmitted over HTTPS.
+
+API keys and credentials used for RapidAPI access are securely managed by OpenAI’s infrastructure.
+
+Interaction data temporarily cached for improving user experience is routinely purged and securely deleted when no longer required.
+
+Compliance and Disclosure
+
+GymBuddy GPT complies with applicable privacy laws and ChatGPT’s strict security guidelines.
+
+We will not disclose data to third parties unless required by law or as necessary to provide the service (e.g., ExerciseDB API via RapidAPI).
+
+User Responsibility
+
+Users must ensure they do not share sensitive personal, medical, or confidential information during interactions with GymBuddy GPT.
+
+GymBuddy GPT provides general fitness guidance and is not a substitute for medical advice. Always consult healthcare professionals for health concerns or advice.
+
+Changes to This Privacy Policy
+
+We may update this Privacy Policy periodically. Any changes will be posted here with an updated effective date. Users are encouraged to review this policy regularly.
+
+Contact Us
+
+For privacy-related inquiries or concerns: aloha@soulvere.com
