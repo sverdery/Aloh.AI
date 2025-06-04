@@ -1,0 +1,163 @@
+Privacy Policy for AI Search Optimization Assistant (Custom Action)
+
+Last updated: June 4, 2025
+
+This Privacy Policy describes how the AI Search Optimization Assistant (“Assistant”) collects, uses, and shares information when you invoke the custom keyword‐insight action that calls the Google Keyword Insight API via RapidAPI.
+
+1. Introduction
+Our Assistant provides keyword discovery and SEO recommendations by sending your seed keywords (or content extracted from a URL) to the Google Keyword Insight API (“Keyword Insight API”), hosted on RapidAPI. In order to deliver accurate, timely suggestions, the Assistant processes certain information—some of which originates from you—and forwards it to the third‐party API. We take your privacy seriously and have designed this policy to explain:
+
+What data we collect
+
+How we use that data
+
+How we share it (both internally and with third parties)
+
+How we secure it
+
+Your rights regarding that data
+
+2. What Data We Collect
+When you invoke the “getKeywordSuggestions” custom action, the Assistant may collect:
+
+Seed keyword or phrase
+
+Example: “Sustainable Living”
+
+Purpose: To request relevant keyword suggestions from the API.
+
+Location and language parameters
+
+Example: location=US, lang=en
+
+Purpose: To narrow down keyword suggestions by geography and language.
+
+Optional filters
+
+Example: mode=all or mode=exact, min_search_vol=100
+
+Purpose: To refine the API response per your specified threshold or exact‐match preferences.
+
+URL (if provided)
+
+If you choose to supply a web page URL instead of (or in addition to) a seed keyword, we temporarily fetch and parse that page’s text.
+
+Purpose: To extract the most relevant phrases or topics, then use them as the “seed keyword” when calling the Keyword Insight API.
+
+API response data
+
+We receive a JSON array of objects containing fields such as text, volume, competition_level, competition_index, low_bid, high_bid, and trend.
+
+Purpose: To present keyword suggestions and metrics back to you.
+
+3. How We Use Your Data
+To generate keyword suggestions
+
+Your seed keyword or extracted phrases, location, and language are forwarded (via RapidAPI) to the Keyword Insight API.
+
+The Assistant uses the returned list of suggestions (volume, competition, trend, etc.) to help you choose target keywords for AI‐optimized SEO copy.
+
+To extract relevant phrases from a URL (if provided)
+
+We only fetch publicly accessible content and parse it locally—no other third‐party is involved in content extraction.
+
+Extracted text is used strictly to derive seed keywords or topics and is not stored beyond the immediate session, except as described in Section 4.
+
+To log usage metrics
+
+We may keep minimal, aggregated logs of:
+
+Which features you used (e.g., fetching keyword suggestions for “xyz”)
+
+Timestamps of API calls
+
+Any error codes or failures returned by the API
+
+These logs are strictly for debugging, usage monitoring, and improving Assistant performance—no personally identifiable information (PII) is stored in these logs.
+
+4. Data Retention and Storage
+Seed keywords, parameters, and API responses
+
+All parameters sent to the API (seed keyword, location, filters) and all responses returned from the API are stored only for the duration of your interactive session.
+
+After your session ends, those details are permanently deleted from our short‐term cache. We do not retain raw page text or extracted phrases beyond what’s necessary to complete the immediate analysis.
+
+Minimal logs
+
+Aggregated, anonymized usage logs (e.g., “Action X was called 372 times today”; “Average API latency was 0.4 s”) are retained for up to 30 days.
+
+We do not retain individual user requests or outputs in these logs.
+
+No long-term storage of user‐provided content
+
+We do not archive or index the actual content you submit (URLs or raw text). Once the session finishes, the extracted content and parameters are purged.
+
+5. How We Share Your Data
+Third-party API (RapidAPI + Google Keyword Insight API)
+
+Whenever you request keyword suggestions, we send:
+
+Your seed keyword or extracted phrases
+
+Location, language, and any filters (mode, min_search_vol)
+
+We do not send any other metadata (e.g., your email, IP address, or any browsing history) to the API.
+
+The API returns a structured JSON array of keyword objects; we forward that response to you verbatim.
+
+Internal service providers
+
+We rely on trusted infrastructure partners (e.g., cloud hosting, logging providers) to maintain uptime and performance. All internal partners are bound by confidentiality and data‐protection agreements.
+
+They see only the anonymized, aggregated logs described in Section 4.
+
+Legal disclosures
+
+We will disclose personal data if required by law (e.g., a valid subpoena or court order) or if we believe disclosure is necessary to prevent harm or fraud.
+
+No resale or marketing sharing
+
+We do not sell, rent, or otherwise trade your seed keywords, URLs, or API results to any marketing, advertising, or data-brokering entities.
+
+6. Security Measures
+API key protection
+
+Our RapidAPI key is stored securely in an environment protected by strong encryption and strict access controls.
+
+We never display or log that API key in plaintext.
+
+Encryption in transit
+
+All data exchanged between your browser and our servers, and between our servers and RapidAPI, is encrypted via HTTPS/TLS (TLS 1.2 or higher).
+
+Access control
+
+Staff and systems have the minimum permissions necessary to operate.
+
+Any staff member or contractor with access to usage logs or infrastructure must adhere to non-disclosure agreements and internal security policies.
+
+Regular audits
+
+We conduct quarterly security reviews of the Assistant’s infrastructure, including penetration testing and vulnerability scans.
+
+7. Your Rights and Choices
+Right to review and delete
+
+You may request a summary of any seed keywords or URLs you provided during your current session. Because we do not retain long-term records of individual sessions, once the session ends, that data cannot be retrieved.
+
+You may request immediate termination of your session, which purges any cached seed keywords or API responses.
+
+Data portability
+
+If you wish to retain a copy of your session’s keyword suggestions, manually copy or export the results before ending the session.
+
+8. Compliance with Global Privacy Regulations
+We comply with the California Consumer Privacy Act (CCPA) and the General Data Protection Regulation (GDPR) as applicable.
+
+If you are a California resident or an EU citizen, you may exercise your rights under those laws (access, correction, deletion, portability, and objection).
+
+9. Changes to This Privacy Policy
+We may update this policy to reflect changes in our practices or legal requirements. We will post a new “Last updated” date at the top whenever we make material changes. We encourage you to review this policy periodically.
+
+10. Contact Information
+If you have any questions, concerns, or requests regarding this Privacy Policy, please reach out: aloha@soulvere.com
