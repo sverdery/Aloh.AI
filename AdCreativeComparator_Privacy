@@ -1,0 +1,50 @@
+# Privacy Policy for Ad Creative Comparator Custom Actions
+
+**Last Updated:** 2025-06-06
+
+## 1. Introduction  
+This privacy policy explains how we collect, use, and protect any data when you call our two image-analysis custom actions (colorDetectionAPI and objectRecognitionAPI) through Ad Creative Comparator GPT. These actions rely on third-party image-analysis APIs accessed via RapidAPI.
+
+## 2. Data Collection & Use  
+- **colorDetectionAPI Endpoint**  
+  - **Data Received:**  
+    - `image_url` (public URL of the banner-ad image to analyze)  
+  - **Purpose:** Extract the dominant color(s) from the provided image for use as `button_color`.  
+  - **Retention:**  
+    - The image URL and response data (dominantColors) are used only to enrich the current session.  
+    - No images or results are stored beyond the runtime of the API call.  
+
+- **objectRecognitionAPI Endpoint**  
+  - **Data Received:**  
+    - `image_url` (public URL)  
+  - **Purpose:** Identify objects, detect a dominant background color, and determine a subject type (`human`, `product`, `graphic`, or `other`) for the banner-ad image.  
+  - **Retention:**  
+    - The image URL and response data (objects array, dominant_color, subject_type) are used only to enrich the current session.  
+    - No images or results are stored beyond the API call’s execution.
+
+## 3. Third-Party Services  
+- Both `colorDetectionAPI` and `objectRecognitionAPI` are provided by RapidAPI‐hosted services:  
+  - **Dominant Color in an Image** (`dominant-color-in-an-image.p.rapidapi.com`)  
+  - **Regim Object Recognition** (`regim3.p.rapidapi.com`)  
+- We do not store or share any user-provided image URLs or API responses outside of this session.  
+- RapidAPI may collect anonymous usage metrics, but individual image URLs or results are not logged or shared by RapidAPI beyond their own transient processing.
+
+## 4. Data Security  
+- All API calls occur over HTTPS (TLS 1.2+) to both RapidAPI endpoints.  
+- The user’s RapidAPI key (X-RapidAPI-Key) is transmitted securely in the request header and is never logged or stored in plaintext.  
+- No personally identifiable information (PII) or campaign-specific data outside of the provided image URLs and metrics is collected.  
+- Transient logs (timestamp, endpoint called) may be stored for no more than 24 hours for debugging, then purged.
+
+## 5. Sharing & Disclosure  
+- We do not share any user-provided image URLs, response data, or campaign metrics with third parties, except to the extent necessary to perform the API call (i.e., sending the image URL to the RapidAPI service).  
+- Aggregated, anonymized usage statistics (e.g., number of calls per day) may be shared internally to improve reliability.
+
+## 6. User Rights  
+- **Request Deletion:** Because no persistent storage of results exists, there is no data to delete. Any transient logs are automatically purged within 24 hours.  
+- **Data Access:** No personal data is retained beyond the API call execution, so there is no data to access.
+
+## 7. Changes to This Policy  
+We may update this policy if RapidAPI or our processing methods change. We will post any changes at the top of this document with an updated “Last Updated” date.
+
+## 8. Contact  
+For questions or concerns about this privacy policy, please email: aloha@soulvere.com  
