@@ -1,0 +1,77 @@
+Privacy Policy for ZipCode Wealth Mapper GPT Custom Action
+
+Last updated: June 22, 2025
+
+This Privacy Policy describes how the ZipCode Wealth Mapper GPT custom action (“we,” “us,” or “our”) collects, uses, discloses, and protects information when you invoke the getWealthDataByZip endpoint via OpenAI ChatGPT.
+
+1. Information We Collect
+Query Parameters
+
+ZIP code (e.g. “90210”)
+
+Year (always “2022”)
+
+These are the only user-supplied inputs forwarded to the IRS RapidAPI endpoint.
+
+Response Data
+
+Aggregated, anonymized IRS statistics at the ZIP code level (e.g. number of returns, AGI totals, filing-status breakdowns, income brackets, credits, deductions, etc.).
+
+No personally identifying information (PII) or individual taxpayer records are ever requested or stored—only public, aggregated ZIP-level data.
+
+Chat Context
+
+The conversation context you provide to ChatGPT (prompt history) may be logged by OpenAI per its standard usage policies. We do not separately retain or log it.
+
+2. How We Use Your Information
+To Fulfill Data Requests
+We forward your ZIP and year parameters to the IRS RapidAPI service to retrieve aggregated tax data, and then return that data to you within the ChatGPT session.
+
+Operational Analytics & Improvement
+We may collect anonymous usage metrics (number of requests, error rates) solely to monitor performance, diagnose issues, and improve reliability. These metrics do not include any PII.
+
+3. Data Sharing and Third Parties
+IRS RapidAPI Service
+We transmit your ZIP and year parameters to irs-individual-income-tax-statistics.p.rapidapi.com under your API key. They return only aggregated data.
+
+OpenAI
+All inputs and outputs are processed by the ChatGPT platform and are subject to OpenAI’s Privacy Policy and Terms of Service.
+
+No Other Disclosures
+We do not sell, rent, or otherwise share any inputs or outputs with unaffiliated third parties.
+
+4. Data Retention
+On Our Side
+We do not persistently store any of your query parameters or the returned IRS data beyond the lifespan of the ChatGPT session.
+
+On the IRS RapidAPI Side
+Usage may be subject to RapidAPI’s own logging and retention practices. Please review RapidAPI’s Privacy Policy for details.
+
+On OpenAI’s Side
+Chat history and API interactions are retained per OpenAI’s retention policies. See OpenAI’s Privacy Policy for specifics.
+
+5. Security Measures
+We require an API key (X-Rapidapi-Key) for all requests; keys are managed by you and never exposed in responses.
+
+All data transmissions occur over HTTPS to ensure encryption in transit.
+
+We do not store any API keys or sensitive data on our servers.
+
+6. Compliance and User Rights
+Anonymity
+No PII is collected or stored—only public, aggregate statistics.
+
+Data Accuracy
+We rely on IRS data provided via RapidAPI; we do not modify or interpret raw values beyond formatting for display.
+
+Your Choices
+
+You control which ZIP codes you query.
+
+You may delete your ChatGPT conversation at any time via the OpenAI interface.
+
+Policy Updates
+We may update this Privacy Policy to reflect changes in practices or legal requirements. A “Last updated” date will always appear at the top.
+
+7. Contact Us
+For questions or concerns about this policy or our handling of data, please contact: aloha@soulvere.com
