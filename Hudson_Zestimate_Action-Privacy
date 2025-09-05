@@ -1,0 +1,122 @@
+Hudson Zestimate Action – Privacy Policy
+
+Last updated: September 5, 2025
+
+This Privacy Policy describes how the Hudson Zestimate Action (the “Action”) processes information when Hudson GPT retrieves a Zillow home value (Zestimate) through RapidAPI. This policy applies only to this Action and its integrations; your broader product and website may be covered by separate policies.
+
+1) Who we are
+
+Controller/Provider: Soulvere, Inc. (“Soulvere”, “we”, “us”, “our”)
+Contact: aloha@soulvere.com
+
+2) What this Action does
+
+The Action sends a property address (or a zpid or property_url, if provided) to Zillow’s API via RapidAPI and returns a single numeric estimate (e.g., { "value": 287300 }).
+
+Hudson GPT may use this number to display current home value and to calculate home value increase if you provide a prior baseline.
+
+3) Information we process
+3.1 Inputs we send to the API
+
+Required (one of):
+
+address (preferred and typically extracted from your Snapshot file), or
+
+zpid, or
+
+property_url
+
+Headers:
+
+X-Rapidapi-Key (your API key; configured in the Action’s secure settings)
+
+(If your platform requires only one security scheme, we rely on the server domain to imply host.)
+
+3.2 Information returned by the API
+
+Zestimate value: { "value": <number> }
+
+3.3 Metadata the systems may receive automatically
+
+Technical logs (limited): timestamps, request/response sizes, error codes, and an action invocation ID.
+
+Network metadata (by RapidAPI/Zillow): IP address, user-agent, and routing details typical for API requests.
+
+We do not send names, emails, payment data, or other direct contact information to Zillow. However, a street address can be personal data if it identifies a natural person.
+
+4) How we use the information
+
+Provide the service: Fetch the current Zestimate for your report.
+
+Compute analytics within your report: e.g., home_value_current_usd and, if a baseline exists, home_value_increase_usd.
+
+Reliability & security: Troubleshoot errors, prevent abuse, and ensure availability.
+
+We do not use Action data for cross-context behavioral advertising or to build unrelated profiles.
+
+5) Legal bases (if GDPR/UK GDPR applies)
+
+Performance of a contract (Art. 6(1)(b)): to return the requested estimate.
+
+Legitimate interests (Art. 6(1)(f)): to keep the Action secure and reliable.
+
+6) Sharing and third parties
+
+We share only what’s necessary to operate the Action:
+
+RapidAPI, LLC (API gateway) — receives the query and necessary headers.
+
+Zillow Group Services — receives the address/zpid/property URL and returns the estimate.
+
+These providers may process network metadata (e.g., IP) and are subject to their own privacy terms. We do not sell your data.
+
+7) Retention
+
+Action invocation data on our side: retained no longer than 30 days for security and debugging, then deleted or aggregated.
+
+Zestimate values used in your report: stored in your report output as you direct.
+
+No caching of API responses beyond generating the current report, unless you explicitly enable a “baseline capture” feature (in which case we store the prior value solely to compute future “increase” deltas).
+
+You can request deletion of stored outputs via the contact below.
+
+8) Security
+
+Transport security: TLS for all requests.
+
+Secrets management: API keys are stored in the Action’s encrypted configuration; never shown in reports or chat.
+
+Data minimization: We send only what’s required (address or zpid).
+
+Access controls & logging: Restricted access and minimal logs for operational needs.
+
+No system is perfectly secure; we maintain administrative, technical, and physical safeguards appropriate to the risk.
+
+9) International transfers
+
+RapidAPI and Zillow may process data in the United States or other jurisdictions. Where applicable, we rely on lawful transfer mechanisms (e.g., SCCs) offered by our providers.
+
+10) Your choices & rights
+
+Don’t use the Action: You can generate reports without a Zillow estimate.
+
+Review/delete outputs: Ask us to remove value outputs from stored reports.
+
+Privacy rights: Depending on your location, you may have rights to access, correct, delete, or port your data, or to object/restrict certain processing. Contact us to exercise these rights.
+
+11) Children’s data
+
+This Action is not directed to children and is intended for adult homeowners and professionals.
+
+12) “Do Not Sell or Share” (CCPA/CPRA)
+
+We do not “sell” personal information or “share” it for cross-context behavioral advertising under California law.
+
+13) Changes to this Policy
+
+We may update this Privacy Policy as the Action evolves or laws change. Material changes will be communicated via release notes or admin channels.
+
+14) Contact
+
+Questions or requests?
+Email: aloha@soulvere.com
